@@ -1,0 +1,785 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183d3a">
+  <meta name="description"
+    content="A quiet beachfront hideaway on the southern edge of Goa. Leave your shoes by the door and let the tide set the day.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Serein Sands — a quieter Goa">
+  <meta property="og:description"
+    content="A small beachfront retreat on Patnem's southern curve, made for bare feet and long lunches.">
+  <meta property="og:image" content="assets/images/south-goa-beach.jpg">
+  <title>Serein Sands | A beachfront hideaway in South Goa</title>
+  <link rel="icon" href="assets/favicon/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preload" as="image" href="assets/images/south-goa-beach.jpg" fetchpriority="high">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="topbar">
+    <div class="container site-container topbar-inner">
+      <!-- <div><a href="tel:+918322713640">+91 832 271 3640</a><span aria-hidden="true">·</span><a
+          href="mailto:stay@sereinsands.example">stay@sereinsands.example</a></div> -->
+      <!-- <a href="#offer">A little more time by the sea <span aria-hidden="true">↗</span></a> -->
+    </div>
+  </div>
+  <header class="site-header" id="site-header">
+    <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+      <div class="container site-container">
+        <a class="navbar-brand brand" href="#home" aria-label="Serein Sands home">
+          <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+            <path d="M5 25c6-8 10 8 17 0s11 8 17 0M5 33c6-8 10 8 17 0s11 8 17 0" />
+          </svg>
+          <span class="brand-name">Serein Sands<small>PATNEM · SOUTH GOA</small></span>
+        </a>
+        <button class="navbar-toggler nav-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+          aria-controls="main-nav" aria-expanded="false" aria-label="Open navigation"><span
+            class="toggle-line"></span><span class="toggle-line"></span></button>
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="#intro">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#amenities">Amenities</a></li>
+            <li class="nav-item"><a class="nav-link" href="#stay">Stay</a></li>
+            <li class="nav-item"><a class="nav-link" href="#dining">Dining</a></li>
+            <li class="nav-item"><a class="nav-link" href="#wellness">Wellness</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#offer">Offers</a></li> -->
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item nav-book"><a class="button button-outline" href="#contact">Reserve <span
+                  aria-hidden="true">↗</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero-poster" src="assets/videos/hero-poster.jpg" width="1920" height="1080" alt=""
+        fetchpriority="high">
+      <video class="hero-video" id="hero-video" autoplay muted loop playsinline webkit-playsinline preload="auto"
+        poster="assets/videos/hero-poster.jpg" aria-hidden="true">
+        <source src="assets/videos/hero.mp4" type="video/mp4">
+        <source src="assets/videos/hero.webm" type="video/webm">
+      </video>
+      <button class="hero-video-play" id="hero-video-play" type="button" aria-controls="hero-video" hidden>
+        Play background video
+      </button>
+      <div class="hero-overlay"></div>
+      <div class="hero-content container site-container">
+        <p class="eyebrow eyebrow-light"><span></span> A BEACHFRONT HIDEAWAY · SOUTH GOA</p>
+        <h1 id="hero-title">A quieter<br><em>kind of coast.</em></h1>
+        <p class="hero-intro">Bare feet at six. Fish curry on the terrace. The last light staying a little longer.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#contact">Book your stay <span
+              aria-hidden="true">↗</span></a><a class="button-link" href="#intro">Explore the resort <span
+              aria-hidden="true">↓</span></a></div>
+      </div>
+      <span class="hero-side-note" aria-hidden="true">14° 59′ N &nbsp; / &nbsp; 74° 02′ E</span>
+      <a class="scroll-cue" href="#intro"><span class="scroll-cue-line"></span> WALK THIS WAY</a>
+      <form class="booking-bar" id="booking-bar" aria-label="Choose your stay dates">
+        <div class="booking-bar-heading"><span class="booking-kicker">YOUR DAYS BY THE SEA</span><strong>When are you
+            coming?</strong></div>
+        <div class="booking-field"><label for="quick-check-in">Check In</label><input id="quick-check-in" name="checkIn"
+            type="date" required></div>
+        <div class="booking-field"><label for="quick-check-out">Check Out</label><input id="quick-check-out"
+            name="checkOut" type="date" required></div>
+        <div class="booking-field booking-field-guests"><label for="quick-guests">Guests</label><select
+            id="quick-guests" name="guests">
+            <option value="2">2 guests</option>
+            <option value="1">1 guest</option>
+            <option value="3">3 guests</option>
+            <option value="4">4 guests</option>
+            <option value="5+">5 or more</option>
+          </select></div>
+        <button class="button button-dark booking-bar-submit" type="submit">Check availability <span
+            aria-hidden="true">↗</span></button>
+      </form>
+    </section>
+
+    <section class="intro section-pad" id="intro" aria-labelledby="intro-title">
+      <div class="container site-container">
+        <div class="intro-grid">
+          <div class="intro-copy reveal">
+            <p class="eyebrow"><span></span> BEACH RESORT IN PATNEM, GOA</p>
+            <h2 class="section-title" id="intro-title">The day starts<br>with <em>the tide.</em></h2>
+            <p class="intro-lead">At six, the beach is still cool underfoot.</p>
+            <p>Our little stretch of Patnem sits between the Arabian Sea and a stand of old palms. There are 32 rooms,
+              no rush to dress for breakfast, and a path that brings you to the sand before the village wakes.</p>
+            <p class="intro-story">Serein began with a simple idea: keep the old palms, open the doors to the sea
+              breeze, and let the morning catch decide lunch. The path to the beach is still sandy, the tea still
+              arrives hot, and the day is yours to leave unplanned.</p>
+            <a class="text-link" href="#stay">Take a look around <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="intro-photos reveal">
+            <figure class="intro-photo intro-photo-main"><img src="assets/images/sunset-on-sand.jpg" width="1200"
+                height="800" alt="Late afternoon light over a quiet South Goa beach" loading="lazy">
+              <figcaption>THE SHORE, JUST BEFORE THE DAY ENDS</figcaption>
+            </figure>
+            <figure class="intro-photo intro-photo-overlap"><img src="assets/images/palms-after-rain.jpg" width="1000"
+                height="750" alt="Rain-dark palm leaves and the green edge of a tropical garden" loading="lazy">
+            </figure>
+            <span class="photo-stamp" aria-hidden="true">GOA<br>15° N</span>
+          </div>
+        </div>
+        <div class="stat-row reveal" aria-label="Serein Sands at a glance">
+          <div class="stat-item"><span class="stat-number" data-count="12" data-suffix=" acres">0</span><span
+              class="stat-label">OF PALM GARDEN</span></div>
+          <div class="stat-item"><span class="stat-number" data-count="32">0</span><span class="stat-label">ROOMS &
+              SUITES</span></div>
+          <div class="stat-item"><span class="stat-number" data-count="16">0</span><span class="stat-label">YEARS BY THE
+              SEA</span></div>
+          <div class="stat-item"><span class="stat-number" data-count="4.8" data-decimals="1">0</span><span
+              class="stat-label">GUEST NOTE AVERAGE</span></div>
+        </div>
+        <div class="intro-photo-strip reveal" aria-label="Coastline around Patnem">
+          <figure><img src="assets/images/goa-palm-cove.jpg" width="1200" height="800"
+              alt="Palm-lined cove on the South Goa coast" loading="lazy">
+            <figcaption>A cove along the South Goa coast</figcaption>
+          </figure>
+          <figure><img src="assets/images/goa-patnem-sunset.jpg" width="1200" height="800"
+              alt="Warm evening light over the Patnem shoreline" loading="lazy">
+            <figcaption>Patnem after the day's heat</figcaption>
+          </figure>
+          <figure><img src="assets/images/tropical-shoreline-morning.jpg" width="1200" height="800"
+              alt="Morning waves rolling onto a palm-fringed tropical beach" loading="lazy">
+            <figcaption>The shore before breakfast</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="resort-moments section-pad" id="resort-moments" aria-labelledby="resort-moments-title">
+      <div class="container site-container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow"><span></span> A MOVING POSTCARD FROM PATNEM</p>
+            <h2 class="section-title" id="resort-moments-title">A little more of <em>the coast.</em></h2>
+          </div>
+          <p class="section-deck">A few scenes from the slower side of South Goa. Use the arrows or dots to wander
+            through.</p>
+        </div>
+        <div id="resort-slider" class="carousel slide resort-carousel reveal" data-bs-touch="true"
+          data-bs-keyboard="true" role="region" aria-roledescription="carousel" aria-label="Resort photographs">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="resort-slide-media">
+                <img src="assets/images/tropical-resort-aerial.jpg" width="1200" height="800"
+                  alt="Aerial view of a tropical resort beside the shore" loading="lazy">
+                <span class="resort-slide-caption">A PATCH OF GREEN BY THE WATER</span>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="resort-slide-media">
+                <img src="assets/images/poolside-palms.jpg" width="1200" height="800"
+                  alt="Quiet resort pool framed by palms and the sea" loading="lazy">
+                <span class="resort-slide-caption">AFTERNOON BY THE POOL</span>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="resort-slide-media">
+                <img src="assets/images/goa-palms-sunset.jpg" width="1200" height="800"
+                  alt="Goa's palms silhouetted against a soft sunset" loading="lazy">
+                <span class="resort-slide-caption">THE LAST LIGHT OVER GOA</span>
+              </div>
+            </div>
+          </div>
+          <div class="resort-carousel-footer">
+            <div class="carousel-indicators resort-indicators">
+              <button type="button" data-bs-target="#resort-slider" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Show resort photograph 1"></button>
+              <button type="button" data-bs-target="#resort-slider" data-bs-slide-to="1"
+                aria-label="Show resort photograph 2"></button>
+              <button type="button" data-bs-target="#resort-slider" data-bs-slide-to="2"
+                aria-label="Show resort photograph 3"></button>
+            </div>
+            <div class="resort-carousel-controls">
+              <button type="button" data-bs-target="#resort-slider" data-bs-slide="prev"
+                aria-label="Previous resort photograph"><span aria-hidden="true">&#8592;</span></button>
+              <button type="button" data-bs-target="#resort-slider" data-bs-slide="next"
+                aria-label="Next resort photograph"><span aria-hidden="true">&#8594;</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stay section-pad" id="stay" aria-labelledby="stay-title">
+      <div class="container site-container">
+        <div class="editorial-row">
+          <figure class="editorial-image reveal"><img src="assets/images/coastal-suite.jpg" width="1200" height="800"
+              alt="A calm, sunlit suite with natural wood and soft linen" loading="lazy">
+            <figcaption>ROOM TO LET THE BREEZE THROUGH</figcaption>
+          </figure>
+          <div class="editorial-copy reveal">
+            <p class="eyebrow"><span></span> ROOMS & SUITES</p>
+            <h2 class="section-title" id="stay-title">Open the shutters.<br><em>Stay awhile.</em></h2>
+            <p>Cool tile under bare feet, a wide bed, a shaded veranda. The Sea-facing suites catch the late breeze;
+              garden rooms keep the morning birds close.</p>
+            <p class="editorial-note">Choose a courtyard room, a veranda suite or a small private villa with its own
+              plunge pool.</p><a class="text-link" href="#contact">Find your room <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="editorial-photo-pair room-photo-pair" aria-label="Room details">
+          <figure><img src="assets/images/resort-bedroom-palm-view.jpg" width="1200" height="800"
+              alt="Guest room with a large bed and palm-framed garden view" loading="lazy">
+            <figcaption>GARDEN ROOM</figcaption>
+          </figure>
+          <figure><img src="assets/images/resort-suite-veranda.jpg" width="1200" height="800"
+              alt="Light-filled resort suite opening toward tropical greenery" loading="lazy">
+            <figcaption>VERANDA SUITE</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="experiences section-pad" id="amenities" aria-labelledby="experiences-title">
+      <div class="container site-container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow"><span></span> AMENITIES & WAYS TO SPEND A DAY</p>
+            <h2 class="section-title" id="experiences-title">Small pleasures,<br><em>close at hand.</em></h2>
+          </div>
+          <p class="section-deck">A sea-facing pool, a table for the catch of the day, slow spa hours and the shore just
+            beyond the palms.</p>
+        </div>
+        <div class="experience-tabs" role="tablist" aria-label="Explore resort experiences">
+          <button class="experience-tab is-active" id="tab-stay" type="button" role="tab" aria-selected="true"
+            aria-controls="panel-stay" data-tab="stay">Stay</button>
+          <button class="experience-tab" id="tab-dine" type="button" role="tab" aria-selected="false"
+            aria-controls="panel-dine" data-tab="dine" tabindex="-1">Dine</button>
+          <button class="experience-tab" id="tab-wellness" type="button" role="tab" aria-selected="false"
+            aria-controls="panel-wellness" data-tab="wellness" tabindex="-1">Wellness</button>
+          <button class="experience-tab" id="tab-adventure" type="button" role="tab" aria-selected="false"
+            aria-controls="panel-adventure" data-tab="adventure" tabindex="-1">Adventure</button>
+        </div>
+        <div class="experience-panel is-active" id="panel-stay" role="tabpanel" aria-labelledby="tab-stay"
+          data-panel="stay">
+          <div class="experience-feature-image"><img src="assets/images/garden-pool.jpg" width="1200" height="800"
+              alt="A quiet pool bordered by tropical greenery" loading="lazy"><span class="image-index">A LITTLE
+              SHADE</span></div>
+          <div class="experience-detail">
+            <p class="eyebrow"><span></span> BETWEEN SEA AND GARDEN</p>
+            <h3>Salt air, then still water.</h3>
+            <p>Come in from the beach for a slow swim, or take the sandy path down for an hour with the Arabian Sea.</p>
+            <div class="activity-list">
+              <p><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 15c3-3 5-3 8 0s5 3 10 0M3 9c3-3 5-3 8 0s5 3 10 0" />
+                </svg> Infinity pool, warmed by afternoon sun</p>
+              <p><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3v18M5 8l7-5 7 5M5 16l7 5 7-5" />
+                </svg> Private path to the quieter end of Patnem</p>
+              <p><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 4h14v16H5zM8 8h8M8 12h8" />
+                </svg> Rooms with a veranda and somewhere to read</p>
+            </div><a class="text-link" href="#contact">Ask about a stay <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="experience-panel" id="panel-dine" role="tabpanel" aria-labelledby="tab-dine" data-panel="dine"
+          hidden>
+          <div class="experience-feature-image"><img src="assets/images/terrace-dinner.jpg" width="1200" height="800"
+              alt="A softly lit table set for an unhurried dinner" loading="lazy"><span class="image-index">FROM OUR
+              KITCHEN</span></div>
+          <div class="experience-detail">
+            <p class="eyebrow"><span></span> SOMETHING FROM THE SEA</p>
+            <h3>Lunch follows the catch.</h3>
+            <p>Grilled pomfret, kokum, a little rice and lime pickle. The cook will tell you what came in while you were
+              in the water.</p>
+            <div class="activity-list">
+              <p><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 20h16M6 17c2-4 10-4 12 0M8 12a4 4 0 0 1 8 0" />
+                </svg> The Sand Table, open to the shore</p>
+              <p><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M6 3v8m-3-8v5a3 3 0 0 0 6 0V3m-3 8v10m9-18v18m0-18c4 3 4 8 0 10" />
+                </svg> Goan fish thali and seasonal vegetables</p>
+              <p><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 20h16M7 16l5-10 5 10M9 13h6" />
+                </svg> Sunset drinks beneath the palms</p>
+            </div><a class="text-link" href="#dining">Read about the table <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="experience-panel" id="panel-wellness" role="tabpanel" aria-labelledby="tab-wellness"
+          data-panel="wellness" hidden>
+          <div class="experience-feature-image"><img src="assets/images/spa-treatment-room.jpg" width="1200"
+              height="800" alt="A calm treatment room with soft daylight and natural textures" loading="lazy"><span
+              class="image-index">ROOM TO RESET</span></div>
+          <div class="experience-detail">
+            <p class="eyebrow"><span></span> MAKE SPACE TO REST</p>
+            <h3>A slower sort of treatment.</h3>
+            <p>Warm oil, quiet hands, a long pause after. Our therapists work with coconut, vetiver and the pace you
+              arrive with.</p>
+            <div class="activity-list">
+              <p><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 21s-8-4-8-11a4 4 0 0 1 8-1 4 4 0 0 1 8 1c0 7-8 11-8 11z" />
+                </svg> Ayurveda-inspired massage rituals</p>
+              <p><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3v18M5 8l7-5 7 5M5 16l7 5 7-5" />
+                </svg> A small deck for morning yoga</p>
+              <p><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 15c3-3 5-3 8 0s5 3 10 0M3 9c3-3 5-3 8 0s5 3 10 0" />
+                </svg> Cool off with a long pool swim</p>
+            </div><a class="text-link" href="#wellness">Visit the spa <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="experience-panel" id="panel-adventure" role="tabpanel" aria-labelledby="tab-adventure"
+          data-panel="adventure" hidden>
+          <div class="experience-feature-image"><img src="assets/images/kayak-on-coast.jpg" width="1200" height="800"
+              alt="A small boat outing on calm coastal water" loading="lazy"><span class="image-index">OUT BEFORE THE
+              HEAT</span></div>
+          <div class="experience-detail">
+            <p class="eyebrow"><span></span> AROUND THE SHORE</p>
+            <h3>Go where the morning goes.</h3>
+            <p>Walk the empty sand before breakfast, cycle past the market stalls, or paddle the backwater inlet when
+              the tide is kind.</p>
+            <div class="activity-list">
+              <p><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m3 15 9-9 9 9-9 4zM12 6v13" />
+                </svg> Guided kayak along the inlet</p>
+              <p><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="8" />
+                  <path d="M12 4v8l6 4" />
+                </svg> Sunrise cycle through the village</p>
+              <p><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 18c4-1 5-5 8-7s4-5 8-7M6 16l-2 2 4 2" />
+                </svg> A short walk to the old fishing jetty</p>
+            </div><a class="text-link" href="#contact">Plan an outing <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dining section-pad" id="dining" aria-labelledby="dining-title">
+      <div class="container site-container">
+        <div class="editorial-row editorial-row-reverse">
+          <figure class="editorial-image reveal"><img src="assets/images/coastal-cooking.jpg" width="1200" height="800"
+              alt="Indian fish curry, fried fish and spices arranged on a dark wooden table" loading="lazy">
+            <figcaption>COOKED SLOWLY, EATEN OUTSIDE</figcaption>
+          </figure>
+          <div class="editorial-copy reveal">
+            <p class="eyebrow"><span></span> DINING AT SEREIN</p>
+            <h2 class="section-title" id="dining-title">A table that<br><em>faces the water.</em></h2>
+            <p>At The Sand Table, the day's fish arrives with lime, coconut and a spoonful of red rice. By evening the
+              menu shifts to charcoal prawns, garden greens and whatever fruit is ripe.</p>
+            <p class="editorial-note">For a quieter dinner, ask us to set a small table under the palms.</p><a
+              class="text-link" href="#contact">Save a seat <span aria-hidden="true">↗</span></a>
+            <div class="editorial-photo-pair dining-photo-pair" aria-label="A taste of the menu">
+              <figure><img src="assets/images/goan-fish-curry.jpg" width="1200" height="800"
+                  alt="Goan fish curry served with rice and herbs" loading="lazy">
+                <figcaption>FISH CURRY, WITH RICE</figcaption>
+              </figure>
+              <figure><img src="assets/images/fish-curry-rice.jpg" width="1200" height="800"
+                  alt="Spiced fish and rice served for a coastal lunch" loading="lazy">
+                <figcaption>LUNCH BY THE WATER</figcaption>
+              </figure>
+            </div>
+            <div class="venue-note"><span>01</span><span>THE SAND TABLE · SHORELINE DINING</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wellness section-pad" id="wellness" aria-labelledby="wellness-title">
+      <div class="container site-container wellness-grid">
+        <div class="wellness-image reveal"><img src="assets/images/yoga-at-sunrise.jpg" width="1000" height="1200"
+            alt="A quiet sunrise movement practice with soft morning light" loading="lazy"><span>THE DAY, BEFORE IT GETS
+            LOUD</span></div>
+        <div class="wellness-copy reveal">
+          <p class="eyebrow"><span></span> WELLNESS, AT YOUR PACE</p>
+          <h2 class="section-title" id="wellness-title">A little room<br>to <em>come back.</em></h2>
+          <p>Begin with a few stretches while the sand is cool. Let warm coconut oil and a patient therapist do the rest
+            later in the day.</p>
+          <p>Nothing on the spa menu needs to be hurried. We leave time afterwards for tea, a shower, and doing very
+            little.</p><a class="text-link" href="#contact">Ask about a treatment <span aria-hidden="true">↗</span></a>
+          <figure class="wellness-detail-photo"><img src="assets/images/spa-hot-stone-ritual.jpg" width="1200"
+              height="800" alt="Warm stone massage treatment in a softly lit spa" loading="lazy">
+            <figcaption>WARM STONE RITUAL</figcaption>
+          </figure>
+          <div class="wellness-ornament" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="escape-banner" aria-labelledby="escape-title">
+      <img src="assets/images/sunset-on-sand.jpg" width="1920" height="900" alt="" loading="lazy">
+      <div class="escape-overlay"></div>
+      <div class="escape-copy reveal">
+        <p class="eyebrow eyebrow-light"><span></span> PATNEM IS WAITING</p>
+        <h2 id="escape-title">Your room faces the sea.<br><em>Come see it.</em></h2><a class="button button-gold"
+          href="#contact">Find your dates <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="gallery section-pad" id="gallery" aria-labelledby="gallery-title">
+      <div class="container site-container">
+        <div class="gallery-heading reveal">
+          <div>
+            <p class="eyebrow"><span></span> A FEW FRAMES FROM HERE</p>
+            <h2 class="section-title" id="gallery-title">The days, <em>unfolding.</em></h2>
+          </div>
+          <p>Early light on the water. A plate passed across the table. The house after the rain.</p>
+        </div>
+        <div class="gallery-toolbar reveal">
+          <div class="gallery-filters" role="group" aria-label="Filter gallery photographs">
+            <button class="gallery-filter is-active" type="button" aria-controls="gallery-grid"
+              data-gallery-filter="all" aria-pressed="true">All scenes</button>
+            <button class="gallery-filter" type="button" aria-controls="gallery-grid" data-gallery-filter="coast"
+              aria-pressed="false">Coast</button>
+            <button class="gallery-filter" type="button" aria-controls="gallery-grid" data-gallery-filter="stay"
+              aria-pressed="false">Stay</button>
+            <button class="gallery-filter" type="button" aria-controls="gallery-grid" data-gallery-filter="table"
+              aria-pressed="false">At the table</button>
+            <button class="gallery-filter" type="button" aria-controls="gallery-grid" data-gallery-filter="wellness"
+              aria-pressed="false">Wellness</button>
+            <button class="gallery-filter" type="button" aria-controls="gallery-grid" data-gallery-filter="activity"
+              aria-pressed="false">Outdoors</button>
+          </div>
+          <p class="gallery-status" id="gallery-status" role="status" aria-live="polite">14 scenes, one slow afternoon.
+          </p>
+        </div>
+        <div class="gallery-grid" id="gallery-grid">
+          <button class="gallery-item gallery-item-tall reveal" type="button" data-gallery-index="0"
+            data-gallery-category="coast" data-full-src="assets/images/south-goa-beach.jpg"
+            data-caption="The shore before breakfast"
+            aria-label="Open photograph: South Goa shore before breakfast"><img src="assets/images/south-goa-beach.jpg"
+              width="900" height="1200" alt="Wide tropical beach and open sea in warm daylight" loading="lazy"><span
+              class="gallery-caption">THE SHORE BEFORE BREAKFAST</span></button>
+          <button class="gallery-item gallery-item-high reveal" type="button" data-gallery-index="1"
+            data-gallery-category="stay" data-full-src="assets/images/resort-villa.jpg"
+            data-caption="A room in the garden" aria-label="Open photograph: resort villa in its garden"><img
+              src="assets/images/resort-villa.jpg" width="900" height="700"
+              alt="Resort villa surrounded by tropical greenery" loading="lazy"><span class="gallery-caption">A ROOM IN
+              THE GARDEN</span></button>
+          <button class="gallery-item gallery-item-wide reveal" type="button" data-gallery-index="2"
+            data-gallery-category="table" data-full-src="assets/images/terrace-dinner.jpg"
+            data-caption="After the last swim" aria-label="Open photograph: dinner after a swim"><img
+              src="assets/images/terrace-dinner.jpg" width="1100" height="700"
+              alt="A dinner table ready for an evening meal" loading="lazy"><span class="gallery-caption">AFTER THE LAST
+              SWIM</span></button>
+          <button class="gallery-item gallery-item-low reveal" type="button" data-gallery-index="3"
+            data-gallery-category="coast" data-full-src="assets/images/palms-after-rain.jpg"
+            data-caption="The garden after rain" aria-label="Open photograph: palm garden after rain"><img
+              src="assets/images/palms-after-rain.jpg" width="900" height="700"
+              alt="Deep green tropical foliage after a rain shower" loading="lazy"><span class="gallery-caption">THE
+              GARDEN AFTER RAIN</span></button>
+          <button class="gallery-item gallery-item-mid reveal" type="button" data-gallery-index="4"
+            data-gallery-category="coast" data-full-src="assets/images/shoreline-dawn.jpg"
+            data-caption="A softer morning" aria-label="Open photograph: waves at dawn"><img
+              src="assets/images/shoreline-dawn.jpg" width="1000" height="700"
+              alt="Soft rolling waves along a tropical shoreline" loading="lazy"><span class="gallery-caption">A SOFTER
+              MORNING</span></button>
+          <button class="gallery-item gallery-item-end reveal" type="button" data-gallery-index="5"
+            data-gallery-category="table" data-full-src="assets/images/coastal-cooking.jpg"
+            data-caption="Lunch from the coast" aria-label="Open photograph: coastal lunch"><img
+              src="assets/images/coastal-cooking.jpg" width="900" height="700"
+              alt="A fresh lunch made with coastal ingredients" loading="lazy"><span class="gallery-caption">LUNCH FROM
+              THE COAST</span></button>
+          <button class="gallery-item gallery-item-low reveal" type="button" data-gallery-index="6"
+            data-gallery-category="stay" data-full-src="assets/images/garden-pool.jpg"
+            data-caption="Poolside, in the shade" aria-label="Open photograph: garden pool in shade"><img
+              src="assets/images/garden-pool.jpg" width="1000" height="700"
+              alt="Water in a quiet pool framed by greenery" loading="lazy"><span class="gallery-caption">POOLSIDE, IN
+              THE SHADE</span></button>
+          <button class="gallery-item gallery-item-mid reveal" type="button" data-gallery-index="7"
+            data-gallery-category="wellness" data-full-src="assets/images/spa-treatment-room.jpg"
+            data-caption="An hour to yourself" aria-label="Open photograph: spa treatment room"><img
+              src="assets/images/spa-treatment-room.jpg" width="900" height="700"
+              alt="Soft daylight in a calm spa treatment room" loading="lazy"><span class="gallery-caption">AN HOUR TO
+              YOURSELF</span></button>
+          <button class="gallery-item gallery-item-wide reveal" type="button" data-gallery-index="8"
+            data-gallery-category="activity" data-full-src="assets/images/kayak-on-coast.jpg"
+            data-caption="Out before the heat" aria-label="Open photograph: morning outing by water"><img
+              src="assets/images/kayak-on-coast.jpg" width="1100" height="700"
+              alt="A small boat waiting for a morning outing" loading="lazy"><span class="gallery-caption">OUT BEFORE
+              THE HEAT</span></button>
+          <button class="gallery-item gallery-item-end reveal" type="button" data-gallery-index="9"
+            data-gallery-category="wellness" data-full-src="assets/images/yoga-at-sunrise.jpg"
+            data-caption="The first light" aria-label="Open photograph: gentle movement at sunrise"><img
+              src="assets/images/yoga-at-sunrise.jpg" width="900" height="700"
+              alt="A quiet movement practice in first light" loading="lazy"><span class="gallery-caption">THE FIRST
+              LIGHT</span></button>
+          <button class="gallery-item gallery-item-high reveal" type="button" data-gallery-index="10"
+            data-gallery-category="stay" data-full-src="assets/images/tropical-resort-aerial.jpg"
+            data-caption="The coast from above" aria-label="Open photograph: tropical resort beside the coast"><img
+              src="assets/images/tropical-resort-aerial.jpg" width="1200" height="800"
+              alt="Aerial view of a tropical resort beside the shore" loading="lazy"><span class="gallery-caption">THE
+              COAST FROM ABOVE</span></button>
+          <button class="gallery-item gallery-item-mid reveal" type="button" data-gallery-index="11"
+            data-gallery-category="stay" data-full-src="assets/images/poolside-palms.jpg"
+            data-caption="A quiet afternoon by the pool" aria-label="Open photograph: palms beside the resort pool"><img
+              src="assets/images/poolside-palms.jpg" width="1200" height="800"
+              alt="Quiet resort pool framed by palms and the sea" loading="lazy"><span class="gallery-caption">A QUIET
+              AFTERNOON</span></button>
+          <button class="gallery-item gallery-item-wide reveal" type="button" data-gallery-index="12"
+            data-gallery-category="coast" data-full-src="assets/images/goa-palms-sunset.jpg"
+            data-caption="The last light over Goa" aria-label="Open photograph: sunset behind Goa's palms"><img
+              src="assets/images/goa-palms-sunset.jpg" width="1200" height="800"
+              alt="Goa's palms silhouetted against a soft sunset" loading="lazy"><span class="gallery-caption">THE LAST
+              LIGHT</span></button>
+          <button class="gallery-item gallery-item-end reveal" type="button" data-gallery-index="13"
+            data-gallery-category="coast" data-full-src="assets/images/turquoise-wave-shore.jpg"
+            data-caption="A wave reaching the sand"
+            aria-label="Open photograph: turquoise wave washing over the shore"><img
+              src="assets/images/turquoise-wave-shore.jpg" width="1200" height="800"
+              alt="Turquoise wave rolling onto a sunlit sandy shore" loading="lazy"><span class="gallery-caption">A
+              WAVE, THEN QUIET</span></button>
+        </div>
+        <p class="gallery-note">SELECT A FRAME TO SEE IT FULL SIZE <span aria-hidden="true">↗</span></p>
+      </div>
+    </section>
+
+    <section class="guest-notes section-pad" aria-labelledby="guest-notes-title">
+      <div class="container site-container guest-grid">
+        <div class="guest-summary reveal">
+          <p class="eyebrow"><span></span> NOTES LEFT IN THE GUEST BOOK</p>
+          <h2 class="section-title" id="guest-notes-title">A good place<br>to <em>be still.</em></h2>
+          <p class="rating-number">4.8 <span>/ 5</span></p>
+          <p class="rating-stars" aria-label="Rated four point eight out of five">★★★★★</p>
+          <p class="rating-copy">96% of guests recommend a stay</p>
+        </div>
+        <div class="guest-carousel-wrap reveal">
+          <div id="guest-carousel" class="carousel slide guest-carousel" data-bs-ride="carousel" data-bs-interval="7500"
+            data-bs-pause="hover" aria-label="Guest reviews">
+            <div class="carousel-inner">
+              <article class="carousel-item active">
+                <div class="guest-note"><span class="quote-mark" aria-hidden="true">“</span>
+                  <blockquote>At six the beach was cool and almost empty. We walked until the sand ran out, then came
+                    back for fish curry on the terrace. I still think about that lunch.</blockquote>
+                  <div class="guest-credit"><span class="credit-line"></span><span><strong>Meera &
+                        Arjun</strong><small>MUMBAI · FOUR NIGHTS</small></span></div>
+                </div>
+              </article>
+              <article class="carousel-item">
+                <div class="guest-note"><span class="quote-mark" aria-hidden="true">“</span>
+                  <blockquote>Our room smelled faintly of wet earth after the rain. The staff left tea by the door
+                    without asking. The whole place seemed to understand we needed a quiet week.</blockquote>
+                  <div class="guest-credit"><span class="credit-line"></span><span><strong>Sophie &
+                        Daniel</strong><small>LONDON · ONE WEEK</small></span></div>
+                </div>
+              </article>
+              <article class="carousel-item">
+                <div class="guest-note"><span class="quote-mark" aria-hidden="true">“</span>
+                  <blockquote>The best bit was having nothing to schedule. A swim, a long lunch, then the palms moving
+                    in the evening breeze. We came back the next winter.</blockquote>
+                  <div class="guest-credit"><span class="credit-line"></span><span><strong>Rhea S.</strong><small>PUNE ·
+                        RETURNING GUEST</small></span></div>
+                </div>
+              </article>
+            </div>
+            <div class="guest-controls"><button type="button" data-bs-target="#guest-carousel" data-bs-slide="prev"
+                aria-label="Previous review"><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M19 12H5m7 7-7-7 7-7" />
+                </svg></button><span id="guest-count-display" aria-live="polite">01 <i></i> 03</span><button
+                type="button" data-bs-target="#guest-carousel" data-bs-slide="next" aria-label="Next review"><svg
+                  viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14m-7-7 7 7-7 7" />
+                </svg></button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="container site-container">
+        <div class="contact-heading reveal">
+          <p class="eyebrow"><span></span> START WITH A NOTE</p>
+          <h2 class="section-title" id="contact-title">Let's shape<br>your <em>stay.</em></h2>
+        </div>
+        <div class="contact-grid">
+          <form class="enquiry-form reveal" id="enquiry-form" novalidate>
+            <div class="enquiry-progress-wrap">
+              <div class="enquiry-progress-copy"><span>YOUR STAY, IN A FEW DETAILS</span><span
+                  id="enquiry-progress-label">0 OF 7 READY</span></div>
+              <progress id="enquiry-progress" class="enquiry-progress" max="7" value="0"
+                aria-label="Enquiry details completed"></progress>
+            </div>
+            <div class="form-grid">
+              <div class="form-field"><label for="guest-name">Your name</label><input id="guest-name" name="name"
+                  autocomplete="name" required aria-describedby="name-error"><span class="field-error"
+                  id="name-error"></span></div>
+              <div class="form-field"><label for="guest-email">Email address</label><input id="guest-email" name="email"
+                  type="email" autocomplete="email" required aria-describedby="email-error"><span class="field-error"
+                  id="email-error"></span></div>
+              <div class="form-field"><label for="guest-phone">Phone number</label><input id="guest-phone" name="phone"
+                  type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="phone-error"><span
+                  class="field-error" id="phone-error"></span></div>
+              <div class="form-field"><label for="guest-count">Guests</label><select id="guest-count" name="guests"
+                  required>
+                  <option value="2">2 guests</option>
+                  <option value="1">1 guest</option>
+                  <option value="3">3 guests</option>
+                  <option value="4">4 guests</option>
+                  <option value="5+">5 or more guests</option>
+                </select></div>
+              <div class="form-field"><label for="check-in">Check In</label><input id="check-in" name="checkIn"
+                  type="date" required aria-describedby="check-in-error"><span class="field-error"
+                  id="check-in-error"></span></div>
+              <div class="form-field"><label for="check-out">Check Out</label><input id="check-out" name="checkOut"
+                  type="date" required aria-describedby="check-out-error"><span class="field-error"
+                  id="check-out-error"></span></div>
+              <div class="form-field form-field-full"><label for="room-type">Room preference</label><select
+                  id="room-type" name="roomType" required aria-describedby="room-error">
+                  <option value="">Choose a room</option>
+                  <option>Garden Room</option>
+                  <option>Veranda Suite</option>
+                  <option>Sea-facing Villa</option>
+                  <option>Help me choose</option>
+                </select><span class="field-error" id="room-error"></span>
+                <div class="room-picks" role="group" aria-label="Quick room preference">
+                  <button type="button" class="room-pick" data-room-choice="Garden Room"
+                    aria-pressed="false">Garden</button>
+                  <button type="button" class="room-pick" data-room-choice="Veranda Suite"
+                    aria-pressed="false">Veranda</button>
+                  <button type="button" class="room-pick" data-room-choice="Sea-facing Villa"
+                    aria-pressed="false">Sea-facing</button>
+                </div>
+              </div>
+              <div class="form-field form-field-full"><label for="guest-message">A note for us
+                  <span>(optional)</span></label><textarea id="guest-message" name="message" rows="3"
+                  placeholder="A celebration, a question, or a detail we should know"></textarea></div>
+            </div>
+            <button class="button button-dark form-submit" id="form-submit" type="submit"><span
+                class="submit-label">Send your enquiry</span><span class="submit-arrow" aria-hidden="true">↗</span><span
+                class="submit-spinner" aria-hidden="true"></span></button>
+            <p class="form-hint">This is a preview form; no message is sent.</p>
+            <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+          </form>
+          <aside class="contact-aside reveal" aria-label="Contact details">
+            <div class="contact-detail"><span class="contact-label">COME FIND US</span>
+              <p>Patnem Beach Road<br>Canacona, South Goa 403702<br>India</p>
+            </div>
+            <div class="contact-detail"><span class="contact-label">A HUMAN WILL ANSWER</span>
+              <p><a href="tel:+918322713640">+91 832 271 3640</a><br><a
+                  href="mailto:stay@sereinsands.example">stay@sereinsands.example</a></p>
+            </div>
+            <div class="contact-detail"><span class="contact-label">DESK HOURS</span>
+              <p>Every day, 8:00 am – 8:00 pm IST<br>After hours, leave us a note.</p>
+            </div>
+            <div class="map-frame"><iframe title="Map of Patnem Beach, South Goa"
+                src="https://maps.google.com/maps?q=Patnem%20Beach%2C%20Goa&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer-strip" id="offer" aria-labelledby="offer-title">
+      <div class="container site-container offer-inner">
+        <div>
+          <p class="eyebrow eyebrow-light"><span></span> A LITTLE MORE TIME BY THE SEA</p>
+          <h2 id="offer-title">Stay three nights.<br><em>Let the fourth find you.</em></h2>
+          <p>Book direct for stays of four nights or more and we'll take care of the last night. Seasonal dates apply.
+          </p>
+        </div>
+        <form class="newsletter-form" id="newsletter-form" novalidate><label for="newsletter-email">Get the occasional
+            note from Goa</label>
+          <div class="newsletter-input"><input id="newsletter-email" name="email" type="email"
+              placeholder="Your email address" required aria-describedby="newsletter-feedback"><button type="submit"
+              aria-label="Sign up for Serein Sands updates"><span>Keep me posted</span><svg viewBox="0 0 24 24"
+                aria-hidden="true">
+                <path d="M5 12h14m-7-7 7 7-7 7" />
+              </svg></button></div><span class="newsletter-feedback" id="newsletter-feedback" role="status"
+            aria-live="polite"></span>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-container">
+      <div class="footer-main">
+        <div class="footer-brand"><a class="brand brand-footer" href="#home"><svg class="brand-mark" viewBox="0 0 44 44"
+              aria-hidden="true">
+              <path d="M5 25c6-8 10 8 17 0s11 8 17 0M5 33c6-8 10 8 17 0s11 8 17 0" />
+            </svg><span class="brand-name">Serein Sands<small>PATNEM · SOUTH GOA</small></span></a>
+          <p>A small, salt-air hideaway for slow mornings and long lunches on the southern edge of Goa.</p>
+          <div class="social-links"><a href="https://www.instagram.com/" aria-label="Instagram" target="_blank"
+              rel="noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="18" cy="6" r="1" fill="currentColor" />
+              </svg></a><a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noreferrer"><svg
+                viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M14 21v-8h3l.5-3H14V8c0-.9.3-1.5 1.6-1.5h2V3.8c-.4-.1-1.5-.2-2.8-.2-2.8 0-4.7 1.7-4.7 4.9V10H7v3h3v8z" />
+              </svg></a></div>
+        </div>
+        <div class="footer-links"><span class="contact-label">A LITTLE MORE</span><a href="#intro">Our story</a><a
+            href="#amenities">Amenities</a><a href="#stay">Rooms & suites</a><a href="#dining">At the table</a><a
+            href="#wellness">Wellness</a><a href="#gallery">Gallery</a></div>
+        <div class="footer-links"><span class="contact-label">SAY HELLO</span><a href="tel:+918322713640">+91 832 271
+            3640</a><a href="mailto:stay@sereinsands.example">stay@sereinsands.example</a><a href="#contact">Patnem
+            Beach, South Goa</a></div>
+        <div class="footer-links"><span class="contact-label">TAKE IT WITH YOU</span><a href="#contact">Ask for the
+            e-brochure <span aria-hidden="true">↗</span></a><span class="brochure-note">Leave us a note and we'll send a
+            copy.</span></div>
+      </div>
+      <div class="footer-signoff">
+        <div><span>THE LAST LIGHT CAN WAIT</span>
+          <p>There is always time for one more morning.</p>
+        </div>
+        <a href="#contact">Plan your stay <span aria-hidden="true">&#8594;</span></a>
+      </div>
+      <div class="footer-bottom"><span>© <span id="current-year"></span> SEREIN SANDS</span><span>A FICTIONAL RESORT
+          CONCEPT · SOUTH GOA</span><a href="#home">BACK TO THE TOP ↑</a></div>
+    </div>
+  </footer>
+
+  <div class="modal fade lightbox" id="gallery-lightbox" tabindex="-1" aria-labelledby="lightbox-title"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="lightbox-title">Serein Sands album</h2><span class="lightbox-count"
+            id="lightbox-count" aria-live="polite"></span><button type="button" class="btn-close"
+            data-bs-dismiss="modal" aria-label="Close photograph"></button>
+        </div>
+        <div class="modal-body"><button class="lightbox-control lightbox-prev" type="button"
+            aria-label="Previous photograph"><svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M19 12H5m7 7-7-7 7-7" />
+            </svg></button>
+          <figure><img id="lightbox-image" src="assets/images/south-goa-beach.jpg" width="1600" height="1200"
+              alt="Coastal photograph preview">
+            <figcaption id="lightbox-caption"></figcaption>
+          </figure><button class="lightbox-control lightbox-next" type="button" aria-label="Next photograph"><svg
+              viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 12h14m-7-7 7 7-7 7" />
+            </svg></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="whatsapp-float"
+    href="https://wa.me/918322713640?text=Hello%20Serein%20Sands%2C%20I%27d%20like%20to%20ask%20about%20a%20stay."
+    target="_blank" rel="noreferrer" aria-label="Chat with Serein Sands on WhatsApp"><svg viewBox="0 0 24 24"
+      aria-hidden="true">
+      <path d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.5L3 20l.9-4.7a8.5 8.5 0 1 1 16.6-3.7z" />
+      <path
+        d="M8 8.3c.5 3 2.2 4.8 5.5 6l1.3-1.5 2.1 1c-.2 1.5-1.3 2.3-2.8 2.2-3.8-.3-7.4-3.8-7.6-7.1-.1-1.4.8-2.5 2.1-2.7l1.1 2.2L8 8.3z" />
+    </svg></a>
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24"
+      aria-hidden="true">
+      <path d="M12 19V5m-7 7 7-7 7 7" />
+    </svg></button>
+  <div class="tide-cursor" id="tide-cursor" aria-hidden="true">
+    <span class="tide-cursor__orbit"></span>
+    <span class="tide-cursor__dot"></span>
+    <span class="tide-cursor__label"></span>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
